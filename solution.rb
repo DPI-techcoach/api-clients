@@ -90,7 +90,7 @@ if any_precipitation == true
     twilio_client = Twilio::REST::Client.new(twilio_sid, twilio_token)
 
     # Put your own phone number here if you want to see it in action
-    recipient_number = "+13126000251"
+    recipient_number = "+13125368423"
 
     # Craft your SMS as a Hash literal with three keys:
     #   :from, :to, and :body
